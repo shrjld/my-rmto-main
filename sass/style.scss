@@ -1,0 +1,11 @@
+$listgroupColor:red;
+$direction:rtl;
+$background:rgb(151, 151, 151);
+
+*{
+    direction: $direction;
+    font-family: vazirmatn fd;
+}
+#body-info{
+background-color:$background;
+}
