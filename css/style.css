@@ -3,6 +3,23 @@
   font-family: vazirmatn fd;
 }
 
-#body-info {
-  background-color: rgb(151, 151, 151);
+.body-info {
+  background-color: #E8E8E8;
+  font-size: 14px;
+  color: rgb(87, 87, 87);
+}
+
+.img-traffic {
+  border: 1px solid rgb(207, 207, 207);
+}
+
+.traffic-icons {
+  background-color: rgb(103, 103, 103);
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.traffic-icons:hover {
+  background-color: orange;
+  border-radius: 7px;
 }/*# sourceMappingURL=style.css.map */

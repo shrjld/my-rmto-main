@@ -1,11 +1,35 @@
 $listgroupColor:red;
 $direction:rtl;
-$background:rgb(151, 151, 151);
+$background1:#E8E8E8;
+$font:14px;
+$border: 1px solid rgb(207, 207, 207);
+$color:rgb(87, 87, 87);
+$background2:rgb(103, 103, 103);
+$p-y:3px;
+$color-orange:orange;
+$border-ra:7px;
 
 *{
     direction: $direction;
     font-family: vazirmatn fd;
 }
-#body-info{
-background-color:$background;
+.body-info{
+background-color: $background1;
+font-size: $font;
+color: $color;
+
+ 
+}
+
+.img-traffic{
+    border: $border;
+}
+.traffic-icons{
+    background-color: $background2;
+    padding-top:$p-y;
+    padding-bottom:$p-y;
+}
+.traffic-icons:hover{
+    background-color:$color-orange ;
+    border-radius: $border-ra;
 }
