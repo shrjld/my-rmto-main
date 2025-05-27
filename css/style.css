@@ -1,9 +1,6 @@
 * {
   direction: rtl;
   font-family: vazirmatn fd;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 .body-info {
@@ -27,14 +24,18 @@
   border-radius: 7px;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 footer {
   background-color: #03203e;
 }
 
-.footer-container {
-  height: auto;
+div .footer-container {
   width: 100%;
-  padding: 30PX;
 }
 
 .footer-link {
@@ -61,11 +62,4 @@ hr {
   height: 1px;
   background-color: white;
   opacity: 1;
-}
-
-.footer-container .row {
-  margin-right: 0;
-  margin-left: 0;
-  padding-right: 0;
-  padding-left: 0;
 }/*# sourceMappingURL=style.css.map */
