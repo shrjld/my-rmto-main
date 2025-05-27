@@ -1,36 +1,91 @@
-$listgroupColor:red;
-$direction:rtl;
-$background1:#E8E8E8;
-$font:14px;
+$listgroupColor: red;
+$direction: rtl;
+$background1: #E8E8E8;
+$font: 14px;
 $border: 1px solid rgb(207, 207, 207);
-$color:rgb(87, 87, 87);
-$background2:#5f5f64;
-$p-y:3px;
-$color-orange:orange;
-$border-ra:7px;
+$color: rgb(87, 87, 87);
+$background2: #5f5f64;
+$p-y: 3px;
+$color-orange: orange;
+$border-ra: 7px;
+$footer-background-color: #03203e;
+$footer-link-color: #fd7e2a;
 
-*{
+* {
     direction: $direction;
     font-family: vazirmatn fd;
-}
-.body-info{
-background-color: $background1;
-font-size: $font;
-color: $color;
-
- 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.img-traffic{
+
+
+.body-info {
+    background-color: $background1;
+    font-size: $font;
+    color: $color;
+
+
+}
+
+.img-traffic {
     border: $border;
 }
-.traffic-icons{
+
+.traffic-icons {
     background-color: $background2;
-    padding-top:$p-y;
-    padding-bottom:$p-y;
+    padding-top: $p-y;
+    padding-bottom: $p-y;
 }
-.traffic-icons:hover{
-    background-color:$color-orange ;
+
+.traffic-icons:hover {
+    background-color: $color-orange ;
     border-radius: $border-ra;
 }
 
+// ----------------------------footer-------------------------------------------------
+footer {
+    background-color: $footer-background-color ;
+}
+
+.footer-container {
+    // background-color: $footer-background-color ;
+    height: auto;
+    width: 100%;
+    padding: 30PX;
+}
+
+.footer-link {
+    display: block;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: $footer-link-color;
+}
+
+.footer-link,
+.footer-para {
+    color: white;
+    font-size: 14px;
+}
+
+h5 {
+    color: white;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: white;
+    opacity: 1;
+}
+
+.footer-container .row {
+
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+}

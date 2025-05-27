@@ -1,6 +1,9 @@
 * {
   direction: rtl;
   font-family: vazirmatn fd;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .body-info {
@@ -22,4 +25,47 @@
 .traffic-icons:hover {
   background-color: orange;
   border-radius: 7px;
+}
+
+footer {
+  background-color: #03203e;
+}
+
+.footer-container {
+  height: auto;
+  width: 100%;
+  padding: 30PX;
+}
+
+.footer-link {
+  display: block;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #fd7e2a;
+}
+
+.footer-link,
+.footer-para {
+  color: white;
+  font-size: 14px;
+}
+
+h5 {
+  color: white;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: white;
+  opacity: 1;
+}
+
+.footer-container .row {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
 }/*# sourceMappingURL=style.css.map */
