@@ -58,14 +58,19 @@ html, body{
 }
 footer {
     background-color: $footer-background-color ;
+       padding-top: 30px;
+   padding-bottom: 30px;
+
 }
 
- div .footer-container{
-
-    // height: 400px;
+ .footer-container{
     width: 100%;
-    // padding-top: 20px;
-}
+ 
+
+ }
+
+  
+    
 
 .footer-link {
     display: block;
@@ -81,9 +86,6 @@ footer {
     color: white;
     font-size: 14px;
 }
-.footer-para{
-    // line-height: 16px;
-}
 
 h5 {
     color: white;
@@ -96,21 +98,5 @@ hr {
     opacity: 1;
 }
 
-// .footer-container .row {
 
-//     margin-right: 0;
-//     margin-left: 0;
-//     padding-right: 0;
-//     padding-left: 0;
-// }
-
-.footer-container .row{
-    // padding-left:55px;
-    // // padding-right:55px;
-    // padding-top: 20px;
-    // padding-bottom: 20px;
-}
-.footer-section1{
-
-}
 // -------------------------------------footer--------------------------------
