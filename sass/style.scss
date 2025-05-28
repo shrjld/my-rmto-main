@@ -19,7 +19,13 @@ $footer-link-color: #fd7e2a;
     // box-sizing: border-box;
 }
 
-
+// ========================== navbar =======================//
+.nav-item{
+    color: rgb(13, 50, 145);
+    background-color: rgb(205, 210, 216);
+    border-left: 1px solid rgb(13, 50, 145);
+}
+// ============================= end navbar =====================//
 
 .body-info {
     background-color: $background1;
