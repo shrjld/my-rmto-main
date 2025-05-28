@@ -1,4 +1,50 @@
 * {
   direction: rtl;
   font-family: vazirmatn fd;
+}
+
+.body-info {
+  background-color: #5f5f64;
+  color: rgb(87, 87, 87);
+}
+
+.traffic-icons {
+  background-color: #5f5f64;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.traffic-icons:hover {
+  background-color: orange;
+  border-radius: 7px;
+}
+
+.Lgroup1 {
+  background-color: #5f5f64;
+}
+.Lgroup1 .listGroup-h {
+  background-color: orange;
+  color: white;
+  list-style: "none";
+  font-weight: "normal";
+}
+
+.Lgroup2 {
+  background-color: #5f5f64;
+}
+.Lgroup2 .listGroup-h {
+  background-color: orange;
+  color: white;
+  list-style: circle;
+  font-weight: bold;
+}
+
+.Lgroup3 {
+  background-color: #5f5f64;
+}
+.Lgroup3 .listGroup-h {
+  background-color: orange;
+  color: white;
+  list-style: circle;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
