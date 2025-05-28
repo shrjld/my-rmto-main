@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @import 'mixin.scss';
 $listgroupColor: red;
 $direction: rtl;
@@ -32,7 +32,6 @@ $border-ra: 7px;
     padding-bottom: $p-y;
 }
 
-=======
 $listgroupColor: red;
 $direction: rtl;
 $background1: #E8E8E8;
@@ -80,13 +79,13 @@ $footer-link-color: #fd7e2a;
     padding-bottom: $p-y;
 }
 
->>>>>>> 526d15483c88300042de4614532edbabe9cfcfdb
+
 .traffic-icons:hover {
     background-color: $color-orange ;
     border-radius: $border-ra;
 }
 
-<<<<<<< HEAD
+
 
 
 .Lgroup1 {
@@ -100,7 +99,7 @@ $footer-link-color: #fd7e2a;
 .Lgroup3 {
     @include side-bar(circle, bold);
 }
-=======
+
 // ----------------------------footer-------------------------------------------------
 html, body{
       margin: 0;
@@ -151,4 +150,3 @@ hr {
 
 
 // -------------------------------------footer--------------------------------
->>>>>>> 526d15483c88300042de4614532edbabe9cfcfdb
