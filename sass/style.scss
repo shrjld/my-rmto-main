@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import 'mixin.scss';
 $listgroupColor: red;
 $direction: rtl;
@@ -31,11 +32,61 @@ $border-ra: 7px;
     padding-bottom: $p-y;
 }
 
+=======
+$listgroupColor: red;
+$direction: rtl;
+$background1: #E8E8E8;
+$font: 14px;
+$border: 1px solid rgb(207, 207, 207);
+$color: rgb(87, 87, 87);
+$background2: #5f5f64;
+$p-y: 3px;
+$color-orange: orange;
+$border-ra: 7px;
+$footer-background-color: #03203e;
+$footer-link-color: #fd7e2a;
+
+* {
+    direction: $direction;
+    font-family: vazirmatn fd;
+    // margin: 0;
+    // padding: 0;
+    // box-sizing: border-box;
+}
+
+// ========================== navbar =======================//
+.nav-item{
+    color: rgb(13, 50, 145);
+    background-color: rgb(205, 210, 216);
+    border-left: 1px solid rgb(13, 50, 145);
+}
+// ============================= end navbar =====================//
+
+.body-info {
+    background-color: $background1;
+    font-size: $font;
+    color: $color;
+
+
+}
+
+.img-traffic {
+    border: $border;
+}
+
+.traffic-icons {
+    background-color: $background2;
+    padding-top: $p-y;
+    padding-bottom: $p-y;
+}
+
+>>>>>>> 526d15483c88300042de4614532edbabe9cfcfdb
 .traffic-icons:hover {
     background-color: $color-orange ;
     border-radius: $border-ra;
 }
 
+<<<<<<< HEAD
 
 
 .Lgroup1 {
@@ -49,3 +100,69 @@ $border-ra: 7px;
 .Lgroup3 {
     @include side-bar(circle, bold);
 }
+=======
+// ----------------------------footer-------------------------------------------------
+html, body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+footer {
+    background-color: $footer-background-color ;
+}
+
+ div .footer-container{
+
+    // height: 400px;
+    width: 100%;
+    // padding-top: 20px;
+}
+
+.footer-link {
+    display: block;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: $footer-link-color;
+}
+
+.footer-link,
+.footer-para {
+    color: white;
+    font-size: 14px;
+}
+.footer-para{
+    // line-height: 16px;
+}
+
+h5 {
+    color: white;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: white;
+    opacity: 1;
+}
+
+// .footer-container .row {
+
+//     margin-right: 0;
+//     margin-left: 0;
+//     padding-right: 0;
+//     padding-left: 0;
+// }
+
+.footer-container .row{
+    // padding-left:55px;
+    // // padding-right:55px;
+    // padding-top: 20px;
+    // padding-bottom: 20px;
+}
+.footer-section1{
+
+}
+// -------------------------------------footer--------------------------------
+>>>>>>> 526d15483c88300042de4614532edbabe9cfcfdb
