@@ -38,9 +38,11 @@ html, body {
 
 footer {
   background-color: #03203e;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-div .footer-container {
+.footer-container {
   width: 100%;
 }
 
