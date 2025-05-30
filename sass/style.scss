@@ -8,6 +8,7 @@ $p-y: 3px;
 $color-orange: orange;
 $border-ra: 7px;
 $color-link:rgb(99, 147, 209);
+$text:justify;
 
 
 * {
@@ -69,7 +70,9 @@ $footer-link-color: #fd7e2a;
 
 
 }
-
+.para-about-trafic{
+    text-align:$text ;
+}
 .img-traffic {
     border: $border;
 }
