@@ -10,22 +10,6 @@ body {
   overflow-x: hidden;
 }
 
-.body-info {
-  background-color: #e8e8e8;
-  color: rgb(87, 87, 87);
-}
-
-.traffic-icons {
-  background-color: #e8e8e8;
-  padding-top: 3px;
-  padding-bottom: 3px;
-}
-
-* {
-  direction: rtl;
-  font-family: vazirmatn fd;
-}
-
 .nav-item {
   color: rgb(13, 50, 145);
   background-color: rgb(205, 210, 216);
@@ -33,7 +17,7 @@ body {
 }
 
 .body-info {
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
   font-size: 14px;
   color: rgb(87, 87, 87);
 }

@@ -3,13 +3,17 @@
 $listgroupColor: red;
 $direction: rtl;
 $color: rgb(87, 87, 87);
-$background2: #e8e8e8;
+$background1: #e8e8e8;
 $p-y: 3px;
 $color-orange: orange;
 $border-ra: 7px;
 $color-link:rgb(99, 147, 209);
 $text:justify;
-
+$font: 14px;
+$border: 1px solid rgb(207, 207, 207);
+$background2: #5f5f64;
+$footer-background-color: #03203e;
+$footer-link-color: #fd7e2a;
 
 * {
     direction: $direction;
@@ -28,44 +32,7 @@ body {
 
 
 
-.body-info {
-    background-color: $background2;
-    // font-size: $font;
-    color: $color;
 
-
-}
-
-.img-traffic {
-    // border: $border;
-}
-
-.traffic-icons {
-    background-color: $background2;
-    padding-top: $p-y;
-    padding-bottom: $p-y;
-}
-
-$listgroupColor: red;
-$direction: rtl;
-$background1: #E8E8E8;
-$font: 14px;
-$border: 1px solid rgb(207, 207, 207);
-$color: rgb(87, 87, 87);
-$background2: #5f5f64;
-$p-y: 3px;
-$color-orange: orange;
-$border-ra: 7px;
-$footer-background-color: #03203e;
-$footer-link-color: #fd7e2a;
-
-* {
-    direction: $direction;
-    font-family: vazirmatn fd;
-    // margin: 0;
-    // padding: 0;
-    // box-sizing: border-box;
-}
 
 // ========================== navbar =======================//
 .nav-item{
@@ -74,7 +41,7 @@ $footer-link-color: #fd7e2a;
     border-left: 1px solid rgb(13, 50, 145);
 }
 // ============================= end navbar =====================//
-
+// ============================= traffic section start =====================//
 .body-info {
     background-color: $background1;
     font-size: $font;
@@ -105,7 +72,7 @@ $footer-link-color: #fd7e2a;
     color: $color-link;
 }
 
-
+// ============================= traffic section end =====================//
 
 .Lgroup1 {
     @include side-bar('none', 'normal');
