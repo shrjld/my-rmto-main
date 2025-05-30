@@ -127,6 +127,18 @@ $footer-link-color: #fd7e2a;
     padding-bottom: 5px;
 }
 
+// ============================= breadcrumb =====================//
+.crumb{
+    background-color:#f2f3f5;
+    height: 50px;
+    margin-bottom: 30px;
+   padding-top: 10px;
+   font-size: $font;
+}
+.crumb-item:hover{
+ color: $color-orange;
+}
+// ============================= breadcrumb end=====================//
 
 // ============================= traffic section start =====================//
 .body-info {
@@ -157,6 +169,10 @@ $footer-link-color: #fd7e2a;
 
 .rmtolink{
     color: $color-link;
+   
+}
+.rmtolink:hover{
+    color: $color-orange;
 }
 .print{
     border:none;
@@ -167,6 +183,9 @@ $footer-link-color: #fd7e2a;
     position: absolute;
     left: 110px;
     margin-top: 10px;
+}
+.print:hover{
+    background-color: $color-orange;
 }
 
 // ============================= traffic section end =====================//
