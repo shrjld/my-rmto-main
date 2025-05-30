@@ -42,6 +42,18 @@ body {
 }
 // ============================= end navbar =====================//
 
+// ============================= breadcrumb =====================//
+.crumb{
+    background-color:#f2f3f5;
+    height: 50px;
+    margin-bottom: 30px;
+   padding-top: 10px;
+   font-size: $font;
+}
+.crumb-item:hover{
+ color: $color-orange;
+}
+// ============================= breadcrumb end=====================//
 
 // ============================= traffic section start =====================//
 .body-info {
@@ -72,6 +84,10 @@ body {
 
 .rmtolink{
     color: $color-link;
+   
+}
+.rmtolink:hover{
+    color: $color-orange;
 }
 .print{
     border:none;
@@ -83,6 +99,7 @@ body {
     left: 110px;
     margin-top: 10px;
 }
+
 
 // ============================= traffic section end =====================//
 
