@@ -33,28 +33,6 @@ body {
 }
 
 .body-info {
-  background-color: #e8e8e8;
-  color: rgb(87, 87, 87);
-}
-
-.traffic-icons {
-  background-color: #e8e8e8;
-  padding-top: 3px;
-  padding-bottom: 3px;
-}
-
-* {
-  direction: rtl;
-  font-family: vazirmatn fd;
-}
-
-.nav-item {
-  color: rgb(13, 50, 145);
-  background-color: rgb(205, 210, 216);
-  border-left: 1px solid rgb(13, 50, 145);
-}
-
-.body-info {
   background-color: #E8E8E8;
   font-size: 14px;
   color: rgb(87, 87, 87);
@@ -79,13 +57,10 @@ body {
   border-radius: 7px;
 }
 
-<<<<<<< HEAD
-=======
 .rmtolink {
   color: rgb(99, 147, 209);
 }
 
->>>>>>> 3330f28fa38d4835de01c29b0b2e577769dc4188
 .Lgroup1 {
   background-color: #5f5f64;
 }
@@ -114,30 +89,12 @@ body {
   color: white;
   list-style: circle;
   font-weight: bold;
-<<<<<<< HEAD
-=======
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
->>>>>>> 3330f28fa38d4835de01c29b0b2e577769dc4188
 }
 
 footer {
   background-color: #03203e;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
-<<<<<<< HEAD
-=======
-.footer-container {
-  width: 100%;
-}
-
->>>>>>> 3330f28fa38d4835de01c29b0b2e577769dc4188
 .footer-link {
   display: block;
   text-decoration: none;
