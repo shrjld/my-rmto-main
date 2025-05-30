@@ -1,6 +1,9 @@
 * {
   direction: rtl;
   font-family: vazirmatn fd;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .navbar-container {
@@ -184,12 +187,6 @@
   font-weight: bold;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 footer {
   background-color: #03203e;
 }
@@ -210,7 +207,13 @@ div .footer-container {
 .footer-link,
 .footer-para {
   color: white;
-  font-size: 13px;
+  font-size: 14px;
+  letter-spacing: -1px;
+  text-align: justify;
+}
+
+.footer-para {
+  line-height: 13px;
 }
 
 .footer-link {
@@ -226,4 +229,12 @@ hr {
   height: 1px;
   background-color: white;
   opacity: 1;
+}
+
+.footer-section3 {
+  margin-top: 13px;
+}
+
+.footer-section3 > img {
+  height: 230px;
 }/*# sourceMappingURL=style.css.map */
