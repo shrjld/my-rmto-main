@@ -14,18 +14,140 @@ $footer-link-color: #fd7e2a;
 * {
     direction: $direction;
     font-family: vazirmatn fd;
-    // margin: 0;
+    margin: 0%;
     // padding: 0;
     // box-sizing: border-box;
 }
 
-// ========================== navbar =======================//
-.nav-item{
-    color: rgb(13, 50, 145);
-    background-color: rgb(205, 210, 216);
-    border-left: 1px solid rgb(13, 50, 145);
+// =============================== navbar-toggler-icon ============================//
+.custom-toggler-icon {
+    background-image: none !important;
 }
+
+
+.custom-toggler-icon {
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-toggler-icon::before,
+.custom-toggler-icon::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-toggler-icon::before {
+    top: -10px;
+}
+
+.custom-toggler-icon::after {
+    top: 10px;
+}
+
+// ============================== end-navbar-toggler-icon==========================//
+
+
+
+// ========================== navbar =======================//
+.navbar-container {
+    background-color: rgb(205, 210, 216);
+    height: 50px;
+}
+
+.navbar-header {
+    padding: 0%;
+}
+
+.nav-item {
+    height: 8vh;
+    padding: 15px 0px;
+
+}
+
+.nav-link-s,
+.nav-link-b {
+    border-left: 2px solid rgb(13, 50, 145);
+    color: rgb(13, 50, 145);
+    font-size: 15px;
+    padding: 6px;
+    word-spacing: 3PX;
+    text-decoration: none;
+    font-weight: 1000;
+}
+
+.nav-link-b:hover,
+.nav-link-s:hover {
+    color: #fd7e2a;
+}
+
+.nav-link-b>.nav-item {
+    width: 130px;
+    text-align: center;
+}
+
+.nav-link-s>.nav-item {
+    width: 90px;
+    text-align: center;
+}
+
+@media(max-width:1000px) {
+
+    .nav-link-b,
+    .nav-link-s {
+        border-left: none;
+        padding: 5px 10px;
+        color: #727272;
+        font-size: 14px;
+        line-height: 25px;
+        font-weight: bolder;
+        text-align: right;
+        opacity: 0.9;
+    }
+
+    .navbar-container {
+        width: 45%;
+
+        margin-right: 0%;
+        background-color: white;
+    }
+
+    .nav-item {
+        border-bottom: 1px solid rgb(195, 195, 195);
+        width: 100%;
+        height: 35px;
+        padding: 5px;
+    }
+
+    .nav-item:hover {
+        background-color: #dfdfdf;
+        opacity: .9;
+    }
+
+    .nav-link-b:hover,
+    .nav-link-s:hover {
+        color: #4d4d4d;
+    }
+
+    .navbar-nav {
+        padding-bottom: 150px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
 // ============================= end navbar =====================//
+.breadcrumb {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
 
 .body-info {
     background-color: $background1;
@@ -51,16 +173,18 @@ $footer-link-color: #fd7e2a;
 }
 
 // ----------------------------footer-------------------------------------------------
-html, body{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 footer {
     background-color: $footer-background-color ;
 }
 
- div .footer-container{
+div .footer-container {
 
     // height: 400px;
     width: 100%;
@@ -80,9 +204,6 @@ footer {
 .footer-para {
     color: white;
     font-size: 14px;
-}
-.footer-para{
-    // line-height: 16px;
 }
 
 h5 {
@@ -104,13 +225,4 @@ hr {
 //     padding-left: 0;
 // }
 
-.footer-container .row{
-    // padding-left:55px;
-    // // padding-right:55px;
-    // padding-top: 20px;
-    // padding-bottom: 20px;
-}
-.footer-section1{
-
-}
 // -------------------------------------footer--------------------------------
