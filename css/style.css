@@ -4,6 +4,28 @@
 }
 
 .body-info {
+  background-color: #e8e8e8;
+  color: rgb(87, 87, 87);
+}
+
+.traffic-icons {
+  background-color: #e8e8e8;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+* {
+  direction: rtl;
+  font-family: vazirmatn fd;
+}
+
+.nav-item {
+  color: rgb(13, 50, 145);
+  background-color: rgb(205, 210, 216);
+  border-left: 1px solid rgb(13, 50, 145);
+}
+
+.body-info {
   background-color: #E8E8E8;
   font-size: 14px;
   color: rgb(87, 87, 87);
@@ -24,6 +46,40 @@
   border-radius: 7px;
 }
 
+.rmtolink {
+  color: rgb(99, 147, 209);
+}
+
+.Lgroup1 {
+  background-color: #5f5f64;
+}
+.Lgroup1 .listGroup-h {
+  background-color: orange;
+  color: white;
+  list-style: "none";
+  font-weight: "normal";
+}
+
+.Lgroup2 {
+  background-color: #5f5f64;
+}
+.Lgroup2 .listGroup-h {
+  background-color: orange;
+  color: white;
+  list-style: circle;
+  font-weight: bold;
+}
+
+.Lgroup3 {
+  background-color: #5f5f64;
+}
+.Lgroup3 .listGroup-h {
+  background-color: orange;
+  color: white;
+  list-style: circle;
+  font-weight: bold;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -32,9 +88,11 @@ html, body {
 
 footer {
   background-color: #03203e;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-div .footer-container {
+.footer-container {
   width: 100%;
 }
 

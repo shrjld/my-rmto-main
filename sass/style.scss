@@ -7,6 +7,7 @@ $background2: #e8e8e8;
 $p-y: 3px;
 $color-orange: orange;
 $border-ra: 7px;
+$color-link:rgb(99, 147, 209);
 
 
 * {
@@ -85,6 +86,9 @@ $footer-link-color: #fd7e2a;
     border-radius: $border-ra;
 }
 
+.rmtolink{
+    color: $color-link;
+}
 
 
 
