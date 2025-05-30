@@ -12,7 +12,19 @@ $border-ra: 7px;
 * {
     direction: $direction;
     font-family: vazirmatn fd;
+   
+    
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
 }
+
+body {
+  overflow-x: hidden;
+}
+
+
+
 
 .body-info {
     background-color: $background2;
@@ -101,23 +113,13 @@ $footer-link-color: #fd7e2a;
 }
 
 // ----------------------------footer-------------------------------------------------
-html, body{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-}
+
 footer {
     background-color: $footer-background-color ;
-       padding-top: 30px;
-   padding-bottom: 30px;
+     
 
 }
 
- .footer-container{
-    width: 100%;
- 
-
- }
 
   
     
@@ -125,6 +127,7 @@ footer {
 .footer-link {
     display: block;
     text-decoration: none;
+    //  text-align: right;
 }
 
 .footer-link:hover {
@@ -134,10 +137,19 @@ footer {
 .footer-link,
 .footer-para {
     color: white;
-    font-size: 14px;
+    font-size: 13px;
+}
+.footer-link{
+//    max-width: 100%;
+//     word-wrap: break-word;
+      white-space: nowrap;
+}
+.footer-para{
+     line-height: 1;
+    //    margin-bottom:0;
 }
 
-h5 {
+h6 {
     color: white;
 }
 
