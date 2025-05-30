@@ -1,0 +1,11 @@
+@mixin side-bar($list-style , $font-weight) {
+    .listGroup-h {
+        background-color: $color-orange;
+        color: white;
+        list-style: $list-style;
+        font-weight: $font-weight;
+    }
+
+    background-color: $background2;
+    
+}

@@ -124,20 +124,21 @@
             </nav>
         </div>
     </div>
-    <!-- ===================================== list group=========================== -->
+    <!-- /////////////********************* -->
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
-                <ul class="list-group ">
-                    <li class="list-group-item active" aria-current="true">فهرست طبقات</li>
+            <div class="col-md-3 order-2 order-md-1">
+                <ul class="list-group Lgroup1">
+                    <li class="list-group-item active listGroup-h" aria-current="true">فهرست طبقات</li>
                     <li class="list-group-item">اخبار و رویدادها</li>
                     <li class="list-group-item">سازمان راهداری و حمل و نقل جاده‌ای</li>
                     <li class="list-group-item">اخبار پویش</li>
                     <li class="list-group-item">اطلاعیه‌های مهم</li>
                     <li class="list-group-item">استان‌ها</li>
                 </ul>
-                <ul class="list-group">
-                    <li class="list-group-item active" aria-current="true">آخرین اخبار سازمان راهداری و حمل و نقل جاده
+                <ul class="list-group Lgroup2">
+                    <li class="list-group-item active listGroup-h" aria-current="true">آخرین اخبار سازمان راهداری و حمل
+                        و نقل جاده
                         ای</li>
                     <li class="list-group-item">ممنوعیت شبانه تردد در مسیرهای رفت و برگشت محور هراز</li>
                     <li class="list-group-item">ترافیک در برخی از محورهای مواصلاتی کشور سنگین است</li>
@@ -150,8 +151,9 @@
                     <li class="list-group-item">ترافیک سنگین وسایل نقلیه در برخی از محورهای مواصلاتی کشور</li>
                     <li class="list-group-item">ترافیک سنگین وسایل نقلیه در محورهای خروجی استان‌های شمالی کشور</li>
                 </ul>
-                <ul class="list-group">
-                    <li class="list-group-item active" aria-current="true">پربازدیدترین اخبار سازمان راهداری و حمل و نقل
+                <ul class="list-group Lgroup3">
+                    <li class="list-group-item active listGroup-h" aria-current="true">پربازدیدترین اخبار سازمان راهداری
+                        و حمل و نقل
                         جاده ای</li>
                     <li class="list-group-item">تشریح برنامه‌ها و تمهیدات لازم به منظور جابه‌جایی زائران مراسم دومین ...
                         (۲۷۰۹۵ بازدید)</li>
@@ -169,7 +171,6 @@
                 </ul>
             </div>
             <div class="col-md-9">
-                <!-- =====================================input================================= -->
                 <div class="row">
                     <div class="col-md-9">
                         <div class="mb-3 d-sm-none d-md-block d-none">
@@ -186,7 +187,8 @@
                         </div>
                     </div>
                 </div>
-                <!-- =================================body info================================= -->
+
+
                 <div class="container body-info py-4">
                     <div class="row">
                         <div class="col-md traffic-head">
@@ -228,7 +230,7 @@
                                         <h2 class="h5 py-2">ترافیک سنگین وسایل نقلیه در محورهای خروجی استان‌های شمالی
                                             کشور
                                         </h2>
-                                        <p>ترافیک وسایل نقلیه در محدوده‌های کلرد، شنگلده و رینه در مسیر شمال به جنوب
+                                        <p class="para-about-trafic">ترافیک وسایل نقلیه در محدوده‌های کلرد، شنگلده و رینه در مسیر شمال به جنوب
                                             محور هراز، محدوده جاجرود در آزادراه پردیس - تهران، محدوده گلشهر و حدفاصل
                                             پایانه شهید کلانتری تا پل فردیس در آزادراه قزوین –کرج سنگین است.</p>
                                     </div>
@@ -250,11 +252,10 @@
                                 روان بوده و محورهای شمالی فاقد هرگونه مداخلات جوی هستند.
                                 گفتنی است، برخی از محورهای استان‌های خراسان شمالی و گلستان دارای پدیده مه‌گرفتی بوده و
                                 محورهای پونل - خلخال و هشتگرد - طالقان نیز دارای انسداد فصلی هستند.</p>
-                            <p>آدرس کوتاه شده: <span><a href="#"
-                                        class="text-primary">https://www.rmto.ir/s/mfak9vb</a></span></p>
+                            <p>آدرس کوتاه شده: <span><a href="#" class="rmtolink">https://www.rmto.ir/s/mfak9vb</a></span></p>
                         </div>
                     </div>
-                    <div class="text-end py-5 ">
+                    <div class="text-end py-5 px-3">
                         <a href="#"><i class="bi bi-facebook traffic-icons text-light px-2"></i></a>
                         <a href="#"><i class="bi bi-twitter traffic-icons text-light px-2"></i></a>
                         <a href="#"><i class="bi bi-google traffic-icons text-light px-2"></i></a>
@@ -266,6 +267,10 @@
                     </div>
 
                 </div>
+                <button class="print">
+                    <i class="bi bi-file-earmark-text px-2"></i>چاپ
+                </button>
+                
 
             </div>
         </div>
@@ -273,48 +278,63 @@
     <!-- ----------------------------------footer------------------------------------- -->
 
 
-    <footer class="footer">
+    <footer class="footer py-5 order-3">
         <div class="container-fluid footer-container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="footer-section1">
-                                <h5>پیوندهای داخلی</h5>
-                                <hr>
-                                <a class="footer-link" href="#">پایگاه های ستادی</a>
-                                <a class="footer-link" href="#">پایگاه های استانی</a>
+            <div class="container ">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="footer-section1">
+                                    <h6>پیوندهای داخلی</h6>
+                                    <hr>
+                                    <a class="footer-link" href="#">پایگاه های ستادی</a>
+                                    <a class="footer-link" href="#">پایگاه های استانی</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="footer-section2">
-                                <h5>پیوندهای بیرونی</h5>
-                                <hr>
-                                <a class="footer-link" href="#">دفتر مقام معظم رهبری</a>
-                                <a class="footer-link" href="#">پایگاه اطلاع رسانی دولت</a>
-                                <a class="footer-link" href="#">وزارت راه و شهرسازی</a>
-                                <a class="footer-link" href="#">سایر وزارتخانه‌ها</a>
-                                <a class="footer-link" href="#">درگاه ملی خدمات دولت هوشمند</a>
-                                <a class="footer-link" href="#">ریاست جمهوری</a>
-                                <a class="footer-link" href="#">وزارت راه و شهرسازی</a>
-                                <a class="footer-link" href="#">ادارات کل راه و شهرسازی</a>
-                                <a class="footer-link" href="#">حمل و نقل بین‌المللی</a>
+                            <div class="col-md-8">
+                                <div class="footer-section2">
+                                    <h6>پیوندهای بیرونی</h6>
+                                    <hr>
+                                    <div class="row ">
+                                        <div class="col-md">
+                                            <!-- <div class="d-flex flex-column text-end"> -->
+                                            <a class="footer-link" href="#">پایگاه اطلاع رسانی دفتر مقام معظم رهبری</a>
+                                            <a class="footer-link" href="#">پایگاه اطلاع رسانی دولت</a>
+                                            <a class="footer-link" href="#">وزارت راه و شهرسازی</a>
+                                            <a class="footer-link" href="#">سایر وزارتخانه‌ها</a>
+                                            <a class="footer-link" href="#">درگاه ملی خدمات دولت هوشمند</a>
+                                            <!-- </div> -->
+                                        </div>
+                                        <div class="col-md">
+                                            <a class="footer-link" href="#">پایگاه اطلاع رسانی ریاست جمهوری</a>
+                                            <a class="footer-link" href="#">
+                                                پایگاه خبری وزارت راه و شهرسازی</a>
+                                            <a class="footer-link" href="#">ادارات کل راه و شهرسازی</a>
+                                            <a class="footer-link" href="#">حمل و نقل بین‌المللی</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-5 footer-section3"
-                            style="width:250px; height:230px; background-color:rgb(205, 216, 157); box-sizing:border-box;">
-                            map</div>
-                        <div class="col-md-7 footer-section4">
-                            <h5>اطلاعات تماس</h5>
-                            <hr>
-                            <p class="footer-para">بلوار کشاورز، خیابان فلسطین، خیابان دمشق، شماره 17</p>
-                            <p class="footer-para">تلفن : ۰۲۱۸۸۸۰۴۳۷۹ | ۰۲۱۸۸۸۰۴۳۸۰</p>
-                            <p class="footer-para">پست الکترونیک :</p>
-                            <p class="footer-para">ساعات کاری : شنبه تا چهارشنبه ساعت 6 تا 13</p>
+
+                    <div class="col-md-5">
+                        <div class="row">
+                            <div class="col-md footer-section3"
+                                style="  height:230px; background-color:rgb(205, 216, 157); box-sizing:border-box;">
+                                map</div>
+                            <div class="col-md footer-section4">
+                                <h6>اطلاعات تماس</h6>
+                                <hr>
+                                <p class="footer-para">بلوار کشاورز، خیابان فلسطین، خیابان </p>
+                                <p class="footer-para">دمشق، شماره 17</p>
+                                <p class="footer-para">تلفن : ۰۲۱۸۸۸۰۴۳۷۹ </p>
+                                <p class="footer-para">۰۲۱۸۸۸۰۴۳۸۰</p>
+                                <p class="footer-para">پست الکترونیک :</p>
+                                <p class="footer-para">ساعات کاری : شنبه تا چهارشنبه ساعت </p>
+                                <p class="footer-para"> 6 تا 13</p>
+                            </div>
                         </div>
                     </div>
                 </div>

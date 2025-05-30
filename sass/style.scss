@@ -1,60 +1,27 @@
+
+@import 'mixin.scss';
 $listgroupColor: red;
 $direction: rtl;
-$background1: #E8E8E8;
-$font: 14px;
-$border: 1px solid rgb(207, 207, 207);
 $color: rgb(87, 87, 87);
-$background2: #5f5f64;
+$color-light: #e8e8e8;
 $p-y: 3px;
 $color-orange: orange;
 $border-ra: 7px;
+$color-link:rgb(99, 147, 209);
+$text:justify;
+$font: 14px;
+$border: 1px solid rgb(207, 207, 207);
+$background2: #5f5f64;
 $footer-background-color: #03203e;
 $footer-link-color: #fd7e2a;
 
 * {
     direction: $direction;
     font-family: vazirmatn fd;
-    margin: 0%;
+    // margin: 0;
     // padding: 0;
     // box-sizing: border-box;
 }
-
-// =============================== navbar-toggler-icon ============================//
-.custom-toggler-icon {
-    background-image: none !important;
-}
-
-
-.custom-toggler-icon {
-    display: inline-block;
-    width: 30px;
-    height: 3px;
-    background-color: black;
-    position: relative;
-    transition: all 0.3s ease-in-out;
-}
-
-.custom-toggler-icon::before,
-.custom-toggler-icon::after {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 3px;
-    background-color: black;
-    transition: all 0.3s ease-in-out;
-}
-
-.custom-toggler-icon::before {
-    top: -10px;
-}
-
-.custom-toggler-icon::after {
-    top: 10px;
-}
-
-// ============================== end-navbar-toggler-icon==========================//
-
-
 
 // ========================== navbar =======================//
 .navbar-container {
@@ -160,14 +127,18 @@ $footer-link-color: #fd7e2a;
     padding-bottom: 5px;
 }
 
+
+// ============================= traffic section start =====================//
 .body-info {
-    background-color: $background1;
+    background-color: $color-light;
     font-size: $font;
     color: $color;
 
 
 }
-
+.para-about-trafic{
+    text-align:$text ;
+}
 .img-traffic {
     border: $border;
 }
@@ -178,24 +149,53 @@ $footer-link-color: #fd7e2a;
     padding-bottom: $p-y;
 }
 
+
 .traffic-icons:hover {
     background-color: $color-orange ;
     border-radius: $border-ra;
 }
 
-// ----------------------------footer-------------------------------------------------
-html,
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.rmtolink{
+    color: $color-link;
+}
+.print{
+    border:none;
+    background-color: rgb(0, 65, 123);
+    padding: 5px 20px;
+    border-radius: $border-ra;
+    color:$color-light;
+    position: absolute;
+    left: 110px;
+    margin-top: 10px;
 }
 
+// ============================= traffic section end =====================//
+
+.Lgroup1 {
+    @include side-bar('none', 'normal');
+}
+
+.Lgroup2 {
+    @include side-bar(circle, bold);
+}
+
+.Lgroup3 {
+    @include side-bar(circle, bold);
+}
+
+// ----------------------------footer-------------------------------------------------
+html, body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
 footer {
     background-color: $footer-background-color ;
+     
+
 }
 
-div .footer-container {
+ div .footer-container{
 
     // height: 400px;
     width: 100%;
@@ -205,6 +205,7 @@ div .footer-container {
 .footer-link {
     display: block;
     text-decoration: none;
+   
 }
 
 .footer-link:hover {
@@ -214,10 +215,18 @@ div .footer-container {
 .footer-link,
 .footer-para {
     color: white;
-    font-size: 14px;
+    font-size: 13px;
+}
+.footer-link{
+//    max-width: 100%;
+//     word-wrap: break-word;
+      white-space: nowrap;
+}
+.footer-para{
+    // line-height: 16px;
 }
 
-h5 {
+h6 {
     color: white;
 }
 
@@ -236,4 +245,13 @@ hr {
 //     padding-left: 0;
 // }
 
+.footer-container .row{
+    // padding-left:55px;
+    // // padding-right:55px;
+    // padding-top: 20px;
+    // padding-bottom: 20px;
+}
+.footer-section1{
+
+}
 // -------------------------------------footer--------------------------------
