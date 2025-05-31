@@ -18,9 +18,9 @@ $footer-link-color: #fd7e2a;
 * {
     direction: $direction;
     font-family: vazirmatn fd;
-    // margin: 0;
-    // padding: 0;
-    // box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 // ========================== navbar =======================//
@@ -203,11 +203,11 @@ $footer-link-color: #fd7e2a;
 }
 
 // ----------------------------footer-------------------------------------------------
-html, body{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-}
+// html, body{
+//       margin: 0;
+//       padding: 0;
+//       box-sizing: border-box;
+// }
 footer {
     background-color: $footer-background-color ;
      
@@ -216,10 +216,9 @@ footer {
 
  div .footer-container{
 
-    // height: 400px;
+    
     width: 100%;
-    // padding-top: 20px;
-}
+   
 
 .footer-link {
     display: block;
@@ -243,9 +242,6 @@ footer {
 //     word-wrap: break-word;
       white-space: nowrap;
 }
-// .footer-para{
-//     // line-height: 16px;
-// }
 
 h6 {
     color: white;
