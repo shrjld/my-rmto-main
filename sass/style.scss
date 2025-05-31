@@ -191,9 +191,7 @@ $footer-link-color: #fd7e2a;
     padding: 5px 20px;
     border-radius: $border-ra;
     color: $color-light;
-    position: absolute;
-    left: 110px;
-    margin-top: 10px;
+   
 }
 
 .print:hover {
@@ -362,29 +360,6 @@ hr {
 
 }
 
-@media (max-width:768px) {
-    .copyright {
-        display: none;
-    }
-
-    .footer-section4 {
-        order: 1;
-    }
-
-    .footer-section3 {
-        order: 2;
-    }
-
-
-
-    // .footer-section3-h6 {
-    //     order: 1;
-    // }
-
-    // .footer-section3{
-    //     order: 2;
-    // }
-
 
     .footer-section3,
     .footer-section4 {
@@ -402,4 +377,3 @@ hr {
         font-size: 12px;
         text-align: center;
     }
-}

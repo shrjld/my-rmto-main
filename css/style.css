@@ -617,9 +617,6 @@ textarea {
   padding: 5px 20px;
   border-radius: 7px;
   color: #e8e8e8;
-  position: absolute;
-  left: 110px;
-  margin-top: 10px;
 }
 
 .print:hover {
@@ -769,28 +766,19 @@ hr {
   color: #fd7e2a;
 }
 
-@media (max-width: 768px) {
-  .copyright {
-    display: none;
-  }
-  .footer-section4 {
-    order: 1;
-  }
-  .footer-section3 {
-    order: 2;
-  }
-  .footer-section3,
-  .footer-section4 {
-    display: flex;
-    flex-direction: column;
-  }
-  .footer-section3 > img {
-    height: auto;
-    max-width: 100%;
-  }
-  .footer-link,
-  .footer-para {
-    font-size: 12px;
-    text-align: center;
-  }
+.footer-section3,
+.footer-section4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section3 > img {
+  height: auto;
+  max-width: 100%;
+}
+
+.footer-link,
+.footer-para {
+  font-size: 12px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
