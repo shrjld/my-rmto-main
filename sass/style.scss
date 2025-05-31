@@ -123,7 +123,9 @@ footer {
 .footer-link,
 .footer-para {
     color: white;
-    font-size: 13px;
+    font-size: 14px;
+    letter-spacing: -1px;
+    text-align: justify;
 }
 .footer-link{
 //    max-width: 100%;
@@ -146,5 +148,16 @@ hr {
     opacity: 1;
 }
 
+ .footer-section3{
+ margin-top:13px;
+ 
 
-// -------------------------------------footer--------------------------------
+}
+.footer-section3>img{
+     height:230px;
+
+}
+
+ 
+
+// -------------------------------------footer-------------------------------// // }
