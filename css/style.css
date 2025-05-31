@@ -1,3 +1,7 @@
+body {
+  text-align: end;
+}
+
 * {
   direction: rtl;
   font-family: vazirmatn fd;
@@ -61,34 +65,36 @@ body {
   color: rgb(99, 147, 209);
 }
 
-.Lgroup1 {
-  background-color: #5f5f64;
-}
-.Lgroup1 .listGroup-h {
-  background-color: orange;
-  color: white;
-  list-style: "none";
-  font-weight: "normal";
+.side-bar-container {
+  border-radius: none;
+  text-align: right;
+  font-size: 14px;
 }
 
-.Lgroup2 {
-  background-color: #5f5f64;
-}
-.Lgroup2 .listGroup-h {
-  background-color: orange;
+.listGroup-header {
+  background-color: orange !important;
   color: white;
-  list-style: circle;
-  font-weight: bold;
 }
 
-.Lgroup3 {
-  background-color: #5f5f64;
+.listGroup1 {
+  list-style: none !important;
+  font-weight: normal;
+  background-color: #E8E8E8 !important;
+  list-style-position: inside !important;
 }
-.Lgroup3 .listGroup-h {
-  background-color: orange;
-  color: white;
-  list-style: circle;
+
+.listGroup2 {
+  list-style: circle !important;
   font-weight: bold;
+  background-color: #E8E8E8 !important;
+  list-style-position: inside !important;
+}
+
+.listGroup3 {
+  list-style: circle !important;
+  font-weight: bold;
+  background-color: #E8E8E8 !important;
+  list-style-position: inside !important;
 }
 
 footer {
@@ -127,4 +133,6 @@ hr {
   height: 1px;
   background-color: white;
   opacity: 1;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

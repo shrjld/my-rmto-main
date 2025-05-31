@@ -1,5 +1,5 @@
 
-@import 'mixin.scss';
+@import './mixin.scss';
 $listgroupColor: red;
 $direction: rtl;
 $color: rgb(87, 87, 87);
@@ -105,20 +105,32 @@ $footer-link-color: #fd7e2a;
     color: $color-link;
 }
 
+// ------------------------sideBar---------------------
 
-
-.Lgroup1 {
-    @include side-bar('none', 'normal');
+.side-bar-container{
+    border-radius: none;
+    text-align: right;
+    font-size: $font;
 }
 
-.Lgroup2 {
-    @include side-bar(circle, bold);
+.listGroup-header{
+    @include side-bar-header;
 }
 
-.Lgroup3 {
-    @include side-bar(circle, bold);
+.listGroup1{
+    @include side-bar(none,normal);
 }
 
+.listGroup2{
+    @include side-bar(circle,bold);
+}
+
+.listGroup3{
+    @include side-bar(circle,bold);
+}
+
+
+  
 // ----------------------------footer-------------------------------------------------
 
 footer {

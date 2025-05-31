@@ -1,6 +1,13 @@
 * {
   direction: rtl;
   font-family: vazirmatn fd;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .body-info {
@@ -31,6 +38,10 @@
   color: rgb(87, 87, 87);
 }
 
+.para-about-trafic {
+  text-align: justify;
+}
+
 .img-traffic {
   border: 1px solid rgb(207, 207, 207);
 }
@@ -46,50 +57,39 @@
   border-radius: 7px;
 }
 
-.Lgroup1 {
-  background-color: #5f5f64;
+.rmtolink {
+  color: rgb(99, 147, 209);
 }
-.Lgroup1 .listGroup-h {
+
+.side-bar-container {
+  border: none;
+}
+
+.listGroup-header {
   background-color: orange;
   color: white;
+}
+
+.listGroup1 {
   list-style: "none";
   font-weight: "normal";
+  background-color: #E8E8E8;
 }
 
-.Lgroup2 {
-  background-color: #5f5f64;
-}
-.Lgroup2 .listGroup-h {
-  background-color: orange;
-  color: white;
-  list-style: circle;
-  font-weight: bold;
+.listGroup2 {
+  list-style: "circle";
+  font-weight: "bold";
+  background-color: #E8E8E8;
 }
 
-.Lgroup3 {
-  background-color: #5f5f64;
-}
-.Lgroup3 .listGroup-h {
-  background-color: orange;
-  color: white;
-  list-style: circle;
-  font-weight: bold;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.listGroup3 {
+  list-style: "circle";
+  font-weight: "bold";
+  background-color: #E8E8E8;
 }
 
 footer {
   background-color: #03203e;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.footer-container {
-  width: 100%;
 }
 
 .footer-link {
@@ -104,10 +104,18 @@ footer {
 .footer-link,
 .footer-para {
   color: white;
-  font-size: 14px;
+  font-size: 13px;
 }
 
-h5 {
+.footer-link {
+  white-space: nowrap;
+}
+
+.footer-para {
+  line-height: 1;
+}
+
+h6 {
   color: white;
 }
 
