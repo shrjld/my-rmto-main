@@ -269,5 +269,55 @@ hr {
 
  
 
-// -------------------------------------footer-------------------------------// // }
+// -----------{--------------------------footer-------------------------------// // }
+.copyright-para{
 
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    font-weight:normal;
+   padding: 7px;
+    letter-spacing: -1px;
+
+}
+.copyright-para-b{
+     display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    font-weight:normal;
+    border-left: 1px solid rgb(68, 65, 65);
+      padding:7px;
+      letter-spacing: -1px; 
+    
+}
+.container-copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ .after-copyright-para-b{
+
+    border-left:2px solid rgb(68, 65, 65); 
+
+}
+.after-copyright-para{
+     font-size: 14px;
+    font-weight: 500;
+   letter-spacing: -1px;
+    font-weight:normal;
+}
+.after-copyright-link{
+       font-size: 14px;
+    font-weight: 500;
+   letter-spacing: -1px;
+    font-weight:normal;
+    text-decoration: none;
+    color: rgb(88, 88, 184);
+}
+.after-copyright-link:hover{
+    color: $footer-link-color;
+
+}
