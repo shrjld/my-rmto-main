@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-
-@import './mixin.scss';
-=======
 @import 'mixin.scss';
 @import 'init.scss'
 
->>>>>>> 999487f77bcd3f724e5db7314e88e8425919a2bc
 $listgroupColor: red;
 $direction: rtl;
 $color: rgb(87, 87, 87);
@@ -182,14 +177,13 @@ $footer-link-color: #fd7e2a;
 
 }
 
-<<<<<<< HEAD
 // ------------------------sideBar---------------------
 
 .side-bar-container{
     border-radius: none;
     text-align: right;
     font-size: $font;
-=======
+}
 .rmtolink:hover {
     color: $color-orange;
 }
@@ -213,7 +207,6 @@ $footer-link-color: #fd7e2a;
 
 .Lgroup1 {
     @include side-bar('none', 'normal');
->>>>>>> 999487f77bcd3f724e5db7314e88e8425919a2bc
 }
 
 .listGroup-header{
