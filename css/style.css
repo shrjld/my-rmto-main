@@ -1,6 +1,9 @@
 * {
   direction: rtl;
   font-family: vazirmatn fd;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .navbar-container {
@@ -184,12 +187,6 @@
   font-weight: bold;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 footer {
   background-color: #03203e;
 }
@@ -213,6 +210,10 @@ div .footer-container {
   font-size: 14px;
   letter-spacing: -1px;
   text-align: justify;
+}
+
+.footer-para {
+  line-height: 13px;
 }
 
 .footer-link {

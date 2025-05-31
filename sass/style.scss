@@ -217,7 +217,7 @@ footer {
  div .footer-container{
 
     
-    width: 100%;
+    width: 100%;}
    
 
 .footer-link {
@@ -237,9 +237,12 @@ footer {
     letter-spacing: -1px;
     text-align: justify;
 }
+.footer-para{
+    line-height: 13px;
+}
+
 .footer-link{
-//    max-width: 100%;
-//     word-wrap: break-word;
+
       white-space: nowrap;
 }
 
@@ -254,7 +257,6 @@ hr {
     opacity: 1;
 }
 
-<<<<<<< HEAD
  .footer-section3{
  margin-top:13px;
  
@@ -268,23 +270,4 @@ hr {
  
 
 // -------------------------------------footer-------------------------------// // }
-=======
-// .footer-container .row {
 
-//     margin-right: 0;
-//     margin-left: 0;
-//     padding-right: 0;
-//     padding-left: 0;
-// }
-
-// .footer-container .row{
-//     // padding-left:55px;
-//     // // padding-right:55px;
-//     // padding-top: 20px;
-//     // padding-bottom: 20px;
-// }
-// .footer-section1{
-
-// }
-// -------------------------------------footer--------------------------------
->>>>>>> 9d1c6b5edcb2b7ec6be41de2ea55e8a6ddd382b4
