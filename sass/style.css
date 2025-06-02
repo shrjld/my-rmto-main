@@ -608,6 +608,8 @@ textarea {
     color: #333;
     text-align: right;
     padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 700;
   }
   .nav-link-b:hover,
   .nav-link-s:hover {
