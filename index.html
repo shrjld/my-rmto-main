@@ -26,7 +26,7 @@
     <section class="container-fluid">
         <img src="photo/screenshot-1747838558066.png" alt="" width="100%">
     </section>
-
+    <!-- =============================== toggler-icon ============================== -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -34,65 +34,65 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- ================================ navbar =========================== -->
+            <div id="nav-overlay"></div>
+            <div class="collapse navbar-collapse order-sm-1" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">معرفی سازمان</a>
+                    <li class="nav-item" style="width: 102px;">
+                        <a class="nav-link-b active" aria-current="page" href="#">معرفی سازمان</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">خدمات</a>
+                    <li class="nav-item" style="width: 60px;">
+                        <a class="nav-link-s active" aria-current="page" href="#">خدمات</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">اطلاعات</a>
+                    <li class="nav-item" style="width: 60px;">
+                        <a class="nav-link-s active" aria-current="page" href="#">اطلاعات</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">آمار</a>
+                    <li class="nav-item" style="width: 42px;">
+                        <a class="nav-link-s active" aria-current="page" href="#">آمار</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">دستورالعمل‌ها</a>
+                    <li class="nav-item" style="width: 100px;">
+                        <a class="nav-link-b active" aria-current="page" href="#">دستورالعمل‌ها</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">فرآیندها</a>
+                    <li class="nav-item" style="width: 70px;">
+                        <a class="nav-link-s active" aria-current="page" href="#">فرآیندها</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">شفافیت</a>
+                    <li class="nav-item" style="width: 70px;">
+                        <a class="nav-link-s active" aria-current="page" href="#">شفافیت</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">اطلاع‌رسانی</a>
+                    <li class="nav-item" style="width: 85px;">
+                        <a class="nav-link-s active" aria-current="page" href="#">اطلاع‌رسانی</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">پویش‌نه‌به‌تصادف</a>
+                    <li class="nav-item" style="width: 120px;">
+                        <a class="nav-link-b active" aria-current="page" href="#">پویش‌نه‌به‌تصادف</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">انتشارات</a>
+                    <li class="nav-item" style="width: 70px;">
+                        <a class="nav-link-s active" aria-current="page" href="#">انتشارات</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">ارتباطات</a>
+                    <li class="nav-item" style="width: 70px;">
+                        <a class="nav-link-b active" aria-current="page" href="#">ارتباطات</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">پنجره‌خدمات‌هوشمند</a>
+                    <li class="nav-item" style="width: 140px;">
+                        <a class="nav-link-b active" aria-current="page" href="#">پنجره‌خدمات‌هوشمند</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">روابط‌عمومی</a>
+                    <li class="nav-item" style="width: 90px;" id="nav-item-b">
+                        <a class="nav-link-b active" aria-current="page" href="#">روابط‌عمومی</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">پایگاه‌ها</a>
+                    <li class="nav-item" style="width: 70px;">
+                        <a class="nav-link-s active" aria-current="page" href="#">پایگاه‌ها</a>
                     </li>
                 </ul>
 
@@ -100,9 +100,9 @@
         </div>
     </nav>
 
+    <!-- ============================ bread crumb ========================= -->
 
-
-    <div class="container-fluid crumb">
+    <div class="container-fluid crumb order-sm-2">
         <div class="container ">
             <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                 <ol class="breadcrumb py-2">
@@ -373,7 +373,61 @@
         </div>
 
     </div>
-  
+    <!-- ============================= js ============================ -->
+    <!-- <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const toggler = document.querySelector(".navbar-toggler");
+
+            toggler.addEventListener("click", function () {
+                setTimeout(() => {
+                    const expanded = toggler.getAttribute("aria-expanded") === "true";
+
+                    if (expanded) {
+                        toggler.classList.add("hidden"); // منو باز است، آیکون مخفی شود
+                    } else {
+                        toggler.classList.remove("hidden"); // منو بسته است، آیکون نمایش داده شود
+                    }
+                }, 200); // تأخیر کوچک برای هماهنگی با بوت‌استرپ
+            });
+        });
+        });
+    </script> -->
+
+    <!-- <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const toggler = document.querySelector(".navbar-toggler");
+
+            toggler.addEventListener("click", function () {
+                setTimeout(() => {
+                    const expanded = toggler.getAttribute("aria-expanded") === "true";
+
+                    if (expanded) {
+                        toggler.classList.add("hidden"); // منو باز است، آیکون مخفی شود
+                    } else {
+                        toggler.classList.remove("hidden"); // منو بسته است، آیکون نمایش داده شود
+                    }
+                }, 200); // تأخیر کوچک برای هماهنگی با بوت‌استرپ
+            });
+        });
+    </script> -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const toggler = document.querySelector('.navbar-toggler');
+
+            toggler.addEventListener('click', function () {
+                setTimeout(() => {
+                    const expanded = toggler.getAttribute('aria-expanded') === 'true';
+
+                    if (expanded) {
+                        toggler.classList.add('hidden');
+                    } else {
+                        toggler.classList.remove('hidden');
+                    }
+                }, 200);
+            });
+        });
+
+    </script>
 </body>
 
 </html>
