@@ -633,6 +633,17 @@ textarea {
   color: orange;
 }
 
+.input-button {
+  border-radius: 0%;
+  height: 4vh;
+  margin-left: 0%;
+}
+
+.button-icon-input {
+  border-radius: 0%;
+  height: 4vh;
+}
+
 .body-info {
   background-color: #e8e8e8;
   font-size: 14px;

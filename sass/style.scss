@@ -207,6 +207,19 @@ $footer-link-color: #fd7e2a;
 
 // ============================= breadcrumb end=====================//
 
+// ========================= input =====================//
+.input-button{
+    border-radius: 0%;
+    height: 4vh;
+    margin-left: 0%;
+}
+.button-icon-input{
+    border-radius: 0%;
+    height: 4vh;
+}
+
+//  ============================= end input =====================//
+
 // ============================= traffic section start =====================//
 .body-info {
     background-color: $color-light;
