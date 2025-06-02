@@ -578,9 +578,6 @@ textarea {
     font-size: 12px;
     font-weight: bold;
   }
-  #hoshmand {
-    width: 100px;
-  }
 }
 @media (max-width: 1000px) {
   .navbar-collapse {
