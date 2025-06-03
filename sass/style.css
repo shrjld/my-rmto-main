@@ -635,13 +635,13 @@ textarea {
 
 .input-button {
   border-radius: 0%;
-  height: 4vh;
   margin-left: 0%;
+  margin-bottom: 20px;
 }
 
-.button-icon-input {
-  border-radius: 0%;
-  height: 4vh;
+.form-control {
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
 }
 
 .body-info {
