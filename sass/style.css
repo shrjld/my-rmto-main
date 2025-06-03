@@ -637,11 +637,13 @@ textarea {
   border-radius: 0%;
   margin-left: 0%;
   margin-bottom: 20px;
+  width: 99.5%;
 }
 
 .form-control {
   border-top-right-radius: 0%;
   border-bottom-right-radius: 0%;
+  cursor: pointer;
 }
 
 .body-info {

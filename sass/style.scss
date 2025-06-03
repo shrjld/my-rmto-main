@@ -214,12 +214,15 @@ $footer-link-color: #fd7e2a;
     border-radius: 0%;
     margin-left: 0%;
     margin-bottom: 20px;
+    width: 99.5%;
 
 }
 
 .form-control {
     border-top-right-radius: 0%;
     border-bottom-right-radius: 0%;
+    cursor: pointer;
+    bor
 }
 
 //  ============================= end input =====================//
@@ -229,8 +232,6 @@ $footer-link-color: #fd7e2a;
     background-color: $color-light;
     font-size: $font;
     color: $color;
-
-
 }
 
 .para-about-trafic {
